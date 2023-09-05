@@ -30,6 +30,7 @@ public class CalculatorController {
         return calculatorService.minusCalculator(num1, num2);
     }
 
+
     @GetMapping(path = "/multiply")
     public String multiplyCalculator(@RequestParam(required = true) int num1, @RequestParam(required = true) int num2) {
         return calculatorService.multiplyCalculator(num1, num2);

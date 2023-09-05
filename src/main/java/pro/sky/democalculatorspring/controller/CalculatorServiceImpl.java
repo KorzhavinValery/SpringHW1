@@ -33,4 +33,5 @@ public class CalculatorServiceImpl implements CalculatorService {
         } else return "<b>На 0 делить нельзя!</b>";
 
     }
+
 }
