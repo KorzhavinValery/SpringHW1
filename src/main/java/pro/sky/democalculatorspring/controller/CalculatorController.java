@@ -32,7 +32,7 @@ public class CalculatorController {
     @GetMapping(path = "/plus")
     public String plusCalculator(@RequestParam(required = true) int num1, @RequestParam(required = true) int num2) {
 
-        return viewStructure(num1, num2, calculatorService.divideCalculator(num1, num2), "+");
+        return viewStructure(num1, num2, calculatorService.plusCalculator(num1, num2), "+");
     }
 
     @GetMapping(path = "/minus")
